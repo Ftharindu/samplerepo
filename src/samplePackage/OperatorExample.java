@@ -61,12 +61,12 @@ public class OperatorExample {
 			
 			int h=10;
 			System.out.println(h);//10
-			f+=10;
+			h+=10;
 			System.out.println(h);//20
-			f-=10;
+			h-=10;
 			System.out.println(h);//10
-			f*=10;
-			System.out.println(h);//100 
+			h*=10;
+			System.out.println(h);//100
 			
 			
 		}
