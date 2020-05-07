@@ -1,0 +1,18 @@
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name ="Sanity"/> 
+  <include name ="Regression"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="TestNG.Class3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!-- as required to test, tester can add groups or remove groups
+if i remove the sanity then test cases grouped to sanity will not execute when i run the XML file 
+but if a test case contain  sanity and regression groups then it will execute  when i run the XML
+because test case belong to both groups even if remove one it will execute with another groups it belongs to-->

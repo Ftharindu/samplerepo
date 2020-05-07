@@ -25,6 +25,5 @@
 	<classpathentry kind="lib" path="C:/Users/Acer/Downloads/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Acer/Downloads/jar_files (1)/selenium-remote-driver-3.4.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Acer/Downloads/selenium-chrome-driver-2.26.0.jar/selenium-chrome-driver-2.26.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Acer/Downloads/selenium-chrome-driver-2.26.0.jar/selenium-firefox-driver-2.26.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

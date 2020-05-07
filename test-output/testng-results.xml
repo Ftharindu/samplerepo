@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="65197" started-at="2020-05-06T20:09:46 IST" finished-at="2020-05-06T20:10:51 IST">
+  <suite name="Suite" duration-ms="122" started-at="2020-05-07T16:12:07 IST" finished-at="2020-05-07T16:12:07 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="65197" started-at="2020-05-06T20:09:46 IST" finished-at="2020-05-06T20:10:51 IST">
-      <class name="TestNG.TestNG_BeforeClass_AfterClass_Priority">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:TestNG.TestNG_BeforeClass_AfterClass_Priority@3cef309d]" name="launchbrowser" is-config="true" duration-ms="24097" started-at="2020-05-06T20:09:46 IST" finished-at="2020-05-06T20:10:10 IST">
+    <test name="Test" duration-ms="122" started-at="2020-05-07T16:12:07 IST" finished-at="2020-05-07T16:12:07 IST">
+      <class name="TestNG.Class4">
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:TestNG.Class4@5b87ed94]" name="testcase1" duration-ms="32" started-at="2020-05-07T16:12:07 IST" finished-at="2020-05-07T16:12:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="verifygoogleTitle()[pri:1, instance:TestNG.TestNG_BeforeClass_AfterClass_Priority@3cef309d]" name="verifygoogleTitle" duration-ms="2252" started-at="2020-05-06T20:10:10 IST" finished-at="2020-05-06T20:10:12 IST">
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase3()[pri:0, instance:TestNG.Class4@5b87ed94]" name="testcase3" duration-ms="33" started-at="2020-05-07T16:12:07 IST" finished-at="2020-05-07T16:12:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifygoogleTitle -->
-        <test-method status="PASS" signature="verifyYahooTitle()[pri:2, instance:TestNG.TestNG_BeforeClass_AfterClass_Priority@3cef309d]" name="verifyYahooTitle" duration-ms="16662" started-at="2020-05-06T20:10:12 IST" finished-at="2020-05-06T20:10:29 IST">
+        </test-method> <!-- testcase3 -->
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:TestNG.Class4@5b87ed94]" name="testcase2" duration-ms="31" started-at="2020-05-07T16:12:07 IST" finished-at="2020-05-07T16:12:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyYahooTitle -->
-        <test-method status="PASS" signature="verifyBankofIndiaTitle()[pri:3, instance:TestNG.TestNG_BeforeClass_AfterClass_Priority@3cef309d]" name="verifyBankofIndiaTitle" duration-ms="5303" started-at="2020-05-06T20:10:29 IST" finished-at="2020-05-06T20:10:34 IST">
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase4()[pri:0, instance:TestNG.Class4@5b87ed94]" name="testcase4" duration-ms="39" started-at="2020-05-07T16:12:07 IST" finished-at="2020-05-07T16:12:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyBankofIndiaTitle -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:TestNG.TestNG_BeforeClass_AfterClass_Priority@3cef309d]" name="closebrowser" is-config="true" duration-ms="16795" started-at="2020-05-06T20:10:34 IST" finished-at="2020-05-06T20:10:51 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- TestNG.TestNG_BeforeClass_AfterClass_Priority -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testcase4 -->
+      </class> <!-- TestNG.Class4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
